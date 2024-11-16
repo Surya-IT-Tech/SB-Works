@@ -1,0 +1,38 @@
+.all-users-page {
+  padding: 4vh 2vw;
+}
+
+.all-users {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.user {
+  display: flex;
+  /* width: 70%; */
+  max-width: 750px;
+  justify-content: space-between;
+  border: 1px solid #ee460e5b;
+  padding: 2vh 1.5vw;
+  border-radius: 0.8rem;
+}
+
+.user span b {
+  margin: 0;
+  font-weight: 500;
+  color: rgb(22, 129, 129);
+}
+
+.user span p {
+  margin: 0;
+  color: rgba(22, 95, 129, 0.728);
+}
+
+@media screen and (max-width: 768px) {
+  .user {
+    flex-direction: column;
+    row-gap: 15px;
+    padding-left: 20px;
+  }
+}
